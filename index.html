@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximamente | Portafolio</title>
+    <!-- Tailwind CSS para estilizado moderno y responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fuente Inter para un diseño limpio y profesional -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-neutral-900 min-h-screen flex flex-col justify-between selection:bg-neutral-900 selection:text-white">
+
+    <!-- Cabecera vacía para mantener el equilibrio -->
+    <header class="w-full py-6 px-8 max-w-7xl mx-auto"></header>
+
+    <!-- Contenido Principal Centralizado -->
+    <main class="flex-1 flex flex-col items-center justify-center px-6 text-center max-w-xl mx-auto my-auto">
+        
+        <!-- Contenedor del GIF Centralizado (Sin bordes ni marcos adicionales) -->
+        <div class="mb-8 w-48 h-48 sm:w-64 sm:h-64 flex items-center justify-center overflow-hidden">
+            <!-- GIF ilustrativo de trabajo en desarrollo -->
+            <img src="https://media.giphy.com/media/xT5LMFZDsj0AKUDYTS/giphy.gif" 
+                 alt="En Construcción" 
+                 class="w-full h-full object-contain"
+                 onerror="this.src='https://placehold.co/250x250/ffffff/171717?text=Proximamente'">
+        </div>
+
+        <!-- Botón de Contacto Funcional -->
+        <div class="flex justify-center mt-2">
+            <a href="mailto:contacto@tucorreo.com" class="inline-flex items-center justify-center px-6 py-3 rounded-full bg-neutral-900 text-white text-sm font-medium hover:bg-neutral-800 transition-all duration-200 shadow-sm hover:shadow">
+                Contacto
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Pie de página con el texto exacto requerido -->
+    <footer class="w-full py-6 px-8 text-center text-xs text-neutral-400 max-w-7xl mx-auto">
+        &copy; 2026 — Todos los derechos reservados.
+    </footer>
+
+</body>
+</html>
